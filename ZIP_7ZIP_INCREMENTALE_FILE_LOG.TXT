@@ -45,3 +45,77 @@
 [08/11/2026 21:49:04] 06.01 - ANNO_S = [2026]
 [08/11/2026 21:49:04] 06.02 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03
 [08/11/2026 21:49:04] 06.02 - Eseguo Zip_N70_DECODIFICA.bat
+[08/11/2026 21:49:15] 07.00 - SALVATAGGIO 7ZIP
+[08/11/2026 21:49:15] 07.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03
+[08/11/2026 21:49:15] 07.01 - PATH_DEST_S = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI
+[08/11/2026 21:49:15] 07.01 - TODAY = 2026_11_08
+[08/11/2026 21:49:15] 07.01 - FILE_S = ZIP_SALVATAGGI_Msys_DF03
+[08/11/2026 21:49:15] 07.01 - Lista file Zip_N70_ElencoFile.txt trovata OK
+[08/11/2026 21:49:15] 07.01 - OUT_ZIP = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF03
+[08/11/2026 21:49:15] 07.02 - Eseguo: 7z u -tzip -r \"c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF03\" @Zip_N70_ElencoFile.txt
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+
+WARNING: Percorso specificato non valido.
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\
+
+
+WARNING: Percorso specificato non valido.
+\\questo Š il secondo esempio con path e file liberi senza .\
+
+
+WARNING: Percorso specificato non valido.
+\\............................................................................\
+
+1 folder, 19 files, 2059156 bytes (2011 KiB)
+
+Creating archive: c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF03.zip
+
+Add new data to archive: 1 folder, 19 files, 2059156 bytes (2011 KiB)
+
+
+WARNING: Impossibile accedere al file. Il file Š utilizzato da un altro processo.
+ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT
+
+
+Files read from disk: 18
+Archive size: 447402 bytes (437 KiB)
+
+Scan WARNINGS for files and folders:
+
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\ : Percorso specificato non valido.
+\\questo Š il secondo esempio con path e file liberi senza .\ : Percorso specificato non valido.
+\\............................................................................\ : Percorso specificato non valido.
+----------------
+Scan WARNINGS: 3
+
+WARNINGS for files:
+
+ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT : Impossibile accedere al file. Il file Š utilizzato da un altro processo.
+----------------
+WARNING: Cannot open 1 file
+[08/11/2026 21:49:15] 07.02 - 7-Zip OK con WARNING noto (ERRORLEVEL=1) - righe // nella lista
+[08/11/2026 21:49:15] 07.02 - I file sono stati archiviati correttamente, procedo
+[08/11/2026 21:49:15] 07.03 - Contenuto c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI dopo 7z:
+ Il volume nell'unit… C non ha etichetta.
+ Numero di serie del volume: 8A04-483D
+
+ Directory di c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI
+
+08/11/2026  21:49    <DIR>          .
+08/11/2026  21:49    <DIR>          ..
+06/11/2026  18:06           445.838 2026_11_06_ZIP_SALVATAGGI_Msys_DF03.GE614
+06/11/2026  18:06             2.559 2026_11_06_ZIP_SALVATAGGI_Msys_DF03_LISTA.TXT
+08/11/2026  21:49           447.402 2026_11_08_ZIP_SALVATAGGI_Msys_DF03.zip
+               3 File        895.799 byte
+               2 Directory  480.493.047.808 byte disponibili
+[08/11/2026 21:49:15] 07.04 - Esporto lista contenuto archivio (con .zip esplicito)
+[08/11/2026 21:49:15] 07.04 - 7z l OK (ERRORLEVEL=0)
+[08/11/2026 21:49:15] 07.04 - Lista esportata in c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF03_LISTA.TXT
+[08/11/2026 21:49:17] 08.00 - CHIAMO CRIPTA
+[08/11/2026 21:49:17] 08.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF03
+[08/11/2026 21:49:17] 08.01 - Eseguo Zip_N70_CRIPTA.bat
+[08/11/2026 21:49:24] 09.00 - SOSPENSIONE ED USCITA
+[08/11/2026 21:49:24] ==================== FINE BAT ====================
